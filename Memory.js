@@ -1,4 +1,4 @@
-const fruits = ["🍎", "🍌", "🍇", "🍉", "🍊", "🍓", "🥝", "🍍"];
+const fruits = ["🍎", "🍌", "🍇", "🍉", "🍊", "🍓", "🥝", ""];
  let cards = [...fruits, ...fruits]; 
  // Duplicate fruits for matching
   let flippedCards = [];
@@ -44,4 +44,7 @@ if (flippedCards.length === 2) { setTimeout(checkMatch, 500); } } }
 
           flippedCards = [];
            if (matchedCards.length === cards.length) { 
-            setTimeout(() => alert("Congratulations! You matched all the fruits!"), 300); } } createBoard();
+               setTimeout(() => alert("Congratulations! You matched all the fruits!"), 300); }
+             }
+                createBoard();
+           
